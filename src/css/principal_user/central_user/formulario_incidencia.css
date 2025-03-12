@@ -1,0 +1,95 @@
+
+
+
+.contenedor-incidencias{
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    max-width: 60vw;
+    max-height: 60vh;
+    left: 20%;
+    width: 100%;
+    /* height: 100%; */
+    z-index: 1000;  
+    border: 1px solid #bcb8b8;
+    background-color:#d8d4d4;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+
+  
+}
+
+.form-incidencias{
+    background-color: white;
+    height: 85%;
+    width: 90%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    
+    
+}
+
+.titulo-incidencias{
+    font-size: 18px;
+    font-size: 500;
+}
+
+.grupo-incidencias{
+    flex-basis: 45%;
+    margin-bottom: 10px;
+}
+
+.grupo-incidencias span {
+    margin-bottom: 20px;
+}
+.grupo-incidencias input{
+    padding: 0 5px;
+}
+input,  textarea{
+    margin-top: 5px;
+    height: 30px;
+    width: 100%;
+    border-radius: 5px;
+    border-bottom-width: 2px;
+    border: solid 0.5px #ccc;
+    border-bottom-width: 2px;
+    padding: 0 5px;
+}
+
+select {
+    margin-top: 5px;
+    height: 30px;
+    border-radius: 5px;
+    border: solid 0.5px #ccc;
+    border-bottom-width: 2px;
+}
+textarea{
+    line-height: 1.5; /* Altura de cada línea */
+  height: calc(1.5em * 5);
+  
+}
+
+
+.boton_enviar button{
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #63b8b9 !important;
+}
+
+button{
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.id_usuario, .usuario{
+    visibility: hidden;
+}
+
+#boton_cerrar_incidencia{
+    margin-top: 10px;
+}

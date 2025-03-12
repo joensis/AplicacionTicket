@@ -1,0 +1,47 @@
+
+.principal_elegir{
+width: 100%;
+/* align-items: center;
+justify-content: center; */
+
+}
+
+.elegir_opcion{
+    position: relative;
+    margin-top: 15%;
+    margin-left: 160px;
+    padding: 30px;
+    border: 2px solid #34344c;
+    border-radius: 20px;
+    width: 40%;
+    background-color: white;
+    
+    
+}
+
+.titulo{
+    position: absolute;
+    top: -10px;
+    left: 30px;
+    background-color: white;
+    
+}
+
+.titulo::before,
+.titulo::after {
+    content: '';
+    display: inline-block;
+    width: 10px; /* Espacio en blanco antes y después del título */
+    /* background-color: #fff; */
+}
+
+.seleccionar_opcion{
+    cursor: pointer;
+    color: #1b9f97;
+    font-size: 20px;
+}
+
+#logo_informes, #logo_usuarios, #logo_empleados{
+    width: 40px;
+    height: 40px;
+}

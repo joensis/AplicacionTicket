@@ -1,0 +1,16 @@
+.principal_editar_cliente  {
+    position: fixed;
+    top: 85%;
+    left: 50%;
+    width: 40vw;
+    /* height: 90vh; */
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    z-index: 1000;  /*para que esté por encima de los otros complementos*/
+    border: 1px solid #bcb8b8;
+    background-color: #d8d4d4;
+    transform: translate(-50%, -50%);
+    border-radius: 8px;
+    
+    }

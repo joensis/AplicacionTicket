@@ -1,0 +1,36 @@
+.cierre_sesion{
+    position: fixed;
+    top: 45%;
+    left: 43%;
+    width: 18vw;
+    height: 16vh;
+    display: flex;
+    flex-direction: column;
+    
+    /* padding: 20px 40px; */
+    z-index: 1000;  /*para que esté por encima de los otros complementos*/
+    border: 1px solid #bcb8b8;
+    background-color: #d8d4d4;
+    border-radius: 8px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+    align-items: center;
+}
+
+.botones_cierre_sesion{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+    
+}
+
+.cierre_sesion p{
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-size: 19px;
+}
+
+#boton_cierre{
+    padding: 10px;
+    background-color: #63b8b9;
+}

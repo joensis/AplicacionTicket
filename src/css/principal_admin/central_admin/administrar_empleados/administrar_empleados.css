@@ -1,0 +1,41 @@
+.administrar_empleados{
+    position: fixed;
+    top: 25%;
+    left: 42%;
+    width: 15vw;
+    /* height: 34vh; */
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    z-index: 1000;  /*para que esté por encima de los otros complementos*/
+    background-color: #d8d4d4;
+    border: 1px solid #bcb8b8;
+    
+    border-radius: 10px;
+}
+
+.elegir_administrar_empleados{
+    background-color: white;
+    padding: 30px;
+  
+
+}
+
+.elegir_administrar_empleados button{
+    margin-bottom: 8px;
+    background-color: #63b8b9;
+}
+
+#cerrar_administrar_empleados{
+    margin-top: 40px;
+    background-color: #aaaeb3 !important;
+}
+.crear_empleado, .editar_empleados {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.crear_empleado{
+    margin-bottom: 20px;
+}

@@ -1,0 +1,54 @@
+.principal_user{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 100vw;
+    height: 100vh;
+    
+    
+    
+    
+}
+
+.elegir_user{
+
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 100%;
+    justify-content: center;
+    margin-left: 10%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    
+}
+
+.contenedor_elegir{
+    border: 2px solid #34344c;
+    padding: 40px;
+    width: 40%;
+    border-radius: 20px;
+    margin-bottom: 150px;
+}
+
+.titulo_seleccion{
+    position: absolute;
+    top: 275px;
+    
+    background-color: white;
+    padding: 5px;
+    color: #34344c;
+    
+    
+}
+
+#logo_informes, #logo_lista_informes{
+    width: 40px;
+    height: 40px;
+   
+}
+
+.seleccionar_opcion{
+    color: #1b9f97;
+}

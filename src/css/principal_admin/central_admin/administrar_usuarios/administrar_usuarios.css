@@ -1,0 +1,48 @@
+.principal_administrar_usuarios{
+    
+    position: fixed;
+    top: 25%;
+    left: 42%;
+    width: 15vw;
+    /* height: 34vh; */
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    z-index: 1000;  /*para que esté por encima de los otros complementos*/
+    /* border: 1px solid black; */
+    background-color: #d8d4d4;
+    border: 1px solid #bcb8b8;
+    border-radius: 10px;
+   /*  align-items:center; */
+    
+}
+
+.principal_administrar_usuarios button{
+    background-color: #63b8b9;
+}
+
+.administrar_usuarios{
+    background-color: white;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+}
+
+.admin_usu_crear_usuario, .admin_usu_editar_usuario{
+  display: flex;
+  align-items: center;
+    justify-content: center;
+}
+
+.admin_usu_crear_usuario{
+    margin-bottom: 20px;
+}
+
+.cerrar_admin_usuarios {
+    background-color: #aaaeb3 !important; 
+    margin-top: 30px;
+    
+}

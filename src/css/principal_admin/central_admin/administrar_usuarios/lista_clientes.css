@@ -1,0 +1,36 @@
+.lista_usuarios{
+    position: fixed;
+top: 35%;
+left: 50%;
+width: 40vw;
+min-height: 40vh;
+display: flex;
+flex-direction: column;
+padding: 20px;
+z-index: 1000;  /*para que esté por encima de los otros complementos*/
+border: 1px solid #bcb8b8;
+background-color: #d8d4d4;
+transform: translate(-50%, -50%);
+border-radius: 8px;
+
+
+}
+
+.listado_usuarios{
+    background-color: white;
+    
+}
+.listado_usuarios ul{
+    text-transform: capitalize;
+    list-style-type: none;
+    padding: 10px;
+
+}
+.listado_usuarios ul li{
+    margin-bottom: 5px;
+}
+
+.cerrar_lista_clientes{
+    margin-top: 20px;
+    width: 70px;
+}

@@ -1,0 +1,16 @@
+/* .central_admin{
+    
+    position: fixed;
+    top: 5%;
+    left: 10%;
+    width: 80vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    z-index: 1000;  
+    
+    background-color: white;
+    border-radius: 10px;
+    
+} */

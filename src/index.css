@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: image("./img/logo.png");
+}
+button{
+  padding: 5px 10px;
+  border: none;
+  background-color: #aaaeb3;
+  color: black;
+  font-size: 16px;
+  cursor: pointer;
+  transition: transform 0.1s ease;
+  font-weight: 500; 
+  
+}
+
+button:active {
+  transform: translateY(4px); /* Baja el botón */
+  box-shadow: 0 2px #2e7d32; /* Reduce la sombra */
+}
+
+/* body{
+  background-color: rgb(202, 212, 224);
+  
+  
+
+} */
+

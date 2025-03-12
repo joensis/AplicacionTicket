@@ -1,0 +1,18 @@
+
+
+.mi_container{
+  
+  /* background-color: rgb(223, 222, 219); */
+  width: 85vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  /* background-image: url("./img/logo.png");
+  background-repeat: no-repeat;
+  background-size: 200px;
+  background-position: 20% 20%; */
+  
+
+}

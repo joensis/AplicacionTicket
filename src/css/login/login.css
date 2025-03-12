@@ -1,0 +1,48 @@
+body{
+    background: url('../img/fondo.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.form-login{
+   
+    position: fixed;
+    top: 30%;
+    left: 35%;
+    
+    width: 30vw;
+    height: 40vh;
+    padding: 30px;
+    border-radius: 10px;
+    border: 3px solid #1b9f97;
+    z-index: 1;
+
+}
+
+form label{
+   
+    color: #34344c;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.form-group{
+    margin: 40px;
+}
+
+.logo_login{
+    position: absolute;
+    top: 110px;
+    left:530px;
+    color: white;
+    z-index: 2;
+}
+
+.mensaje_error_credenciales{
+    margin-bottom: 15px;
+    color: rgb(193, 64, 64);
+}
+
+.botones_login{
+    display: flex;
+    justify-content: space-between;
+}

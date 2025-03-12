@@ -1,0 +1,39 @@
+.informar_problema{
+    position: fixed;
+    top: 25%;
+    left: 30%;
+    width: 40vw;
+    /* height: 34vh; */
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    z-index: 1000;  /*para que esté por encima de los otros complementos*/
+    background-color: #d8d4d4;
+    border: 1px solid #bcb8b8;
+    
+    border-radius: 10px;
+}
+
+.formulario_problema{
+    background-color: white;
+    padding: 20px;
+
+}
+
+.formulario_problema input textarea{
+    margin-bottom: 10px;
+   
+}
+
+.formulario_problema textarea{
+    line-height: 1.5; /* Altura de cada línea */
+  height: calc(1.5em * 5);
+}
+
+.formulario_problema select{
+    margin-bottom: 10px;
+}
+
+.cerrar_informar_problema{
+    margin-top: 10px;
+}

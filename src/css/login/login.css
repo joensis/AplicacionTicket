@@ -24,6 +24,12 @@ body{
 
 }
 
+input:focus{
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+
 form label{
    
     color: #34344c;

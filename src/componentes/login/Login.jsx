@@ -93,6 +93,8 @@ const Login = () => {
         <>
 
             <div className='logo_login'><img src="./img/logoTrans.png" alt="" /></div>
+
+
             <form className="form-login" id='formulario_login' onSubmit={handleSubmit}>
                 <div className="form-group">
                     <label htmlFor="usuario">USUARIO</label>
@@ -119,10 +121,11 @@ const Login = () => {
                 </div>
                 <div className='mensaje_error_credenciales'>{mensajeError}</div>
                 <div className='botones_login' >
-                    <button type="submit" className="btn btn-primary">Entrar</button>
+                    <button type="submit" className="boton-primario">Entrar</button>
                     <button id='informar_problema' type='button' onClick={handleAbrirProblemas}>Informar de un problema</button>
                 </div>
             </form>
+
 
             {abrirProblemas &&
                 <Informar_problema cerrar_problema={handleCerrarProblemas} />

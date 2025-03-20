@@ -5,8 +5,7 @@
     align-items: center; 
     width: 100vw;
     height: 100vh;
-    
-    
+     
     
     
 }
@@ -22,25 +21,25 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     
     
+    
+    
 }
 
 .contenedor_elegir{
-    border: 2px solid #34344c;
-    padding: 40px;
+    
+    padding: 10px;
     width: 40%;
     border-radius: 20px;
     margin-bottom: 150px;
+    background-color: white;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
 }
 
 .titulo_seleccion{
-    position: absolute;
-    top: 275px;
     
-    background-color: white;
     padding: 5px;
-    color: #34344c;
-    
-    
+    color: #1b9f97;
+    text-align: center;
 }
 
 #logo_informes, #logo_lista_informes{
@@ -51,4 +50,12 @@
 
 .seleccionar_opcion{
     color: #1b9f97;
+}
+
+.contenedor_crear, .contenedor_misIncidencias{
+    background-color: #eff1f4;
+    margin-bottom: 9px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }

@@ -22,11 +22,12 @@
 #boton_cierra_incidencias{
     margin-top: 15px;
     padding: 5px;
-    width: 150px;    
+    width: 150px; 
+    background-color: #38a3a5;   
 }
 
 .central_user p{
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 100;
 }
 

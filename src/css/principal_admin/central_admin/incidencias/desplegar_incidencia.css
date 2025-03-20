@@ -1,32 +1,57 @@
-.desplegar{
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-position: fixed;
-top: 5%;
-left: 20%;
-width: 60vw;
-/* height: 80vh; */
-display: flex;
-flex-direction: column;
-padding: 20px;
-z-index: 1000;  /*para que esté por encima de los otros complementos*/
-border: 1px solid #778da9;
-background-color: #bbc9dd;
-border-radius: 10px;
-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2), 0 15px 30px rgba(0, 0, 0, 0.15);
+
+.desplegar {
+
+    position: fixed;
+    top: 25%;
+    left: 30%;
+    width: 40vw;
+   
+
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    z-index: 1000;
+    /*para que esté por encima de los otros complementos*/
+    border-color: #d8d4d4;
+    background-color: #d8d4d4;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2), 0 15px 30px rgba(0, 0, 0, 0.15);
 
 }
 
-.desplegar_informacion{
+.desplegar_informacion {
     background-color: white;
     padding: 30px;
 
+
 }
 
-.titulo .descripcion {
-    width: 80%;
+.usuario_id_info {
+    display: flex;
+
+    justify-content: space-between;
+    gap: 10px;
 }
 
-.desplegar_informacion p{
+.info_item {
+    width: calc(50% - 10px);
+    /* Cada elemento ocupa la mitad del ancho */
+    
+}
+
+
+
+#titulo, #descripcion {
+    width: 100% !important;
+}
+
+.desplegar_informacion p {
     border: 1px solid black;
     background-color: white;
     width: 100%;
@@ -36,15 +61,18 @@ box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2), 0 15px 30px rgba(0, 0, 0, 0.15);
 
 
 
-#descripcion{
-   min-height: 7em;
-   
+#descripcion {
+    min-height: 7em;
+    
+
 }
 
-#cerrar_desplegar{
+#cerrar_desplegar {
     width: 60px;
     margin-top: 20px;
+    background-color: #38a3a5;
 }
+
 span {
     font-weight: 500;
 }

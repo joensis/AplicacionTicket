@@ -23,10 +23,9 @@ align-items: center;
 }
 
 .titulo{
-    position: absolute;
-    top: -10px;
-    left: 30px;
-    background-color: white;
+    color: #1b9f97;
+    text-align: center;
+    
     
 }
 

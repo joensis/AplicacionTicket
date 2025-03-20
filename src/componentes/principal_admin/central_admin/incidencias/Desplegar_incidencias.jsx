@@ -1,7 +1,7 @@
 import '../../../../css/principal_admin/central_admin/incidencias/desplegar_incidencia.css';
 
 
-const Desplegar_incidencia = ({id_incidencia, titulo, descripcion, fecha, usuario, departamento, handleClickCerrar}) =>{
+const Desplegar_incidencia = ({ id_incidencia, titulo, descripcion, fecha, usuario, departamento, handleClickCerrar }) => {
 
 
 
@@ -9,38 +9,47 @@ const Desplegar_incidencia = ({id_incidencia, titulo, descripcion, fecha, usuari
 
     return (
 
-<>
+        <>
 
-        <div className="desplegar">
+            <div className="desplegar">
 
                 <div className='desplegar_informacion'>
 
                     <div className='usuario_id_info'>
-                        <span>Usuario</span>
-                        <p>{usuario}</p>
-                        <span>ID incidencia</span>
-                        <p>{id_incidencia}</p>
-                        <span>Fecha</span>
-                        <p>{fecha}</p>
-                        <span>Departamento</span>
-                        <p>{departamento}</p>
+                        <div className='info_item'>
+                            <span>Usuario</span>
+                            <p>{usuario}</p>
+                        </div>
+
+                        <div className='info_item'>
+                            <span>ID incidencia</span>
+                            <p>{id_incidencia}</p>
+                        </div>
+
+                        <div className='info_item'>
+                            <span>Fecha</span>
+                            <p>{fecha}</p>
+                        </div>
+
+                        <div className='info_item'>
+                            <span>Departamento</span>
+                            <p>{departamento}</p>
+                        </div>
+
                     </div>
-                
+
                     <span>Título</span>
                     <p id='titulo'>{titulo}</p>
-                
 
 
-                
+
+
                     <span>Descripción</span>
                     <p id='descripcion'>{descripcion}</p>
-                
+
                 </div>
 
-                <button  id='cerrar_desplegar' onClick={handleClickCerrar}>Cerrar</button>
-
-                
-            
+                <button id='cerrar_desplegar' onClick={handleClickCerrar}>Cerrar</button>
 
 
 
@@ -50,9 +59,12 @@ const Desplegar_incidencia = ({id_incidencia, titulo, descripcion, fecha, usuari
 
 
 
-        </div>
 
-        {/* <table className="tabla_desplegar" id='desplegar'>
+
+
+            </div>
+
+            {/* <table className="tabla_desplegar" id='desplegar'>
 
                         <thead>
                             <tr>
@@ -90,7 +102,7 @@ const Desplegar_incidencia = ({id_incidencia, titulo, descripcion, fecha, usuari
  */}
 
 
-</>
+        </>
     )
 
 

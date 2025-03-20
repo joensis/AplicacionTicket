@@ -19,11 +19,14 @@
 
 .principal_administrar_usuarios button{
     background-color: #63b8b9;
+    width: 90%;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .administrar_usuarios{
     background-color: white;
-    padding: 40px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;

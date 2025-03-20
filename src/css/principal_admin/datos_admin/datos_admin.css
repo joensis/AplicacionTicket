@@ -12,6 +12,7 @@
     width: 13%;
     height: 100%;
     box-shadow: 3px 0 3px -1px rgba(0, 0, 0, 0.5), -3px 0 3px -1px rgba(0, 0, 0, 0.5);
+    background-color: #eff1f4;
     
     
 }
@@ -37,6 +38,9 @@
    
 }
 
+.cajaCierre button{
+    border-radius: 15px;
+}
 
 
 

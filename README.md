@@ -1,3 +1,5 @@
+![imagen del login](./capturas/principal_login.png)
+
 ### TickHelp
 
 ##### Aplicación web para la gestión de incidencias

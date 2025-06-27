@@ -1,4 +1,4 @@
-![imagen del login](./capturas/principal_login.png)
+![imagen del login](./capturas/principal_login.PNG)
 
 ### TickHelp
 

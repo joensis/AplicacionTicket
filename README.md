@@ -19,6 +19,7 @@ Usuarios: pueden registrar nuevas incidencias y hacer seguimiento de su estado.
 Administradores: tienen acceso a la gestión completa de incidencias y usuarios, incluyendo la modificación del estado de cada caso.
 
 **En desarrollo**
+
 Actualmente, continúo trabajando en la mejora del diseño visual, la experiencia de usuario y la adaptabilidad de la interfaz para garantizar un uso óptimo en todo tipo de dispositivos (diseño responsive).
 
 
